@@ -6,15 +6,17 @@
 
 <script>
 export default {
-  name: 'App'
-}
+  name: "App"
+};
 </script>
 
 <style>
-
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Lato', 'Merriweather'
+  font-family: "Lato", "Merriweather";
+}
+.app {
+  margin: 0 0 32px 0;
 }
 </style>
