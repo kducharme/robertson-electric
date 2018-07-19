@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      msg: "Quality, transparent electrical services.",
+      msg: "Quality, transparent electrical services in Central MA.",
       sub:
         "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi."
     };
@@ -46,7 +46,9 @@ export default {
 <style lang='scss'>
 .home {
   background-image: url("../img/hero3.jpg");
-  background-size: 100vw;
+  background-size:cover;
+  min-height: 65vh;
+  max-height: 80vh;
   width: 100vw;
   height: 75vh;
   .home__hero {
@@ -61,13 +63,13 @@ export default {
     line-height: 1.7;
     h1 {
       font-family: 'Merriweather';
-      width: 68vw;
-      font-size: 38px;
+      width: 60vw;
+      font-size: 40px;
       color: white;
       margin-bottom: 16px;
     }
     p {
-      width: 68vw;
+      width: 60vw;
       color: white;
       font-size: 18px;
       font-weight: 400;

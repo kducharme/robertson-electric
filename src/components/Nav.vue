@@ -4,6 +4,8 @@
     <ul>
         <li>Services</li>
         <li>About</li>
+        <li>Service Area</li>
+        <li>Testimonials</li>
         <button>Contact me</button>
     </ul>
   </nav>
