@@ -4,9 +4,8 @@
     <ul>
         <li>Services</li>
         <li>About</li>
-        <li>Service Area</li>
-        <li>Testimonials</li>
-        <button>Contact me</button>
+        <li>Reviews</li>
+        <!-- <button>Contact me</button> -->
     </ul>
   </nav>
 </template>
@@ -28,12 +27,16 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 40px;
+  padding: 0 100px;
+  background-color: white;
+  z-index: 999;
+  position: fixed;;
+  width: 100vw;
   ul {
     list-style: none;
   }
   p {
-    color: white;
+    color: #343849;
     font-size: 18px;
     font-weight: 600;
   }
@@ -42,7 +45,7 @@ nav {
       align-items: center;
       li {
           margin-right: 24px;
-          color: white;
+          color: #343849;
           font-size: 14px;
       }
       button {
