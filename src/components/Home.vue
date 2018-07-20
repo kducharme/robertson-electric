@@ -121,13 +121,13 @@ h1, h2, h3, h4, p {
   .home__about {
     display: flex;
     align-items: center;
-    padding: 40px 100px;
+    padding: 40px 150px;
     height: 450px;
     .left {
       display: flex;
       justify-content: flex-end;
       width: 50%;
-      margin-right: 5%;
+      margin-right: 3%;
       img {
         height: 300px;
         width: auto;
@@ -139,7 +139,7 @@ h1, h2, h3, h4, p {
       display: flex;
       justify-content: flex-start;
       width: 50%;
-      margin-left: 5%;
+      margin-left: 3%;
       flex-direction: column;
       h2 {
         font-size: 28px;
