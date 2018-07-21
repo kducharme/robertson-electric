@@ -32,6 +32,7 @@ nav {
   z-index: 999;
   position: fixed;;
   width: 100vw;
+  border-bottom: 1px solid #E2E2E2;
   ul {
     list-style: none;
   }
