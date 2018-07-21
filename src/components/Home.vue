@@ -138,8 +138,8 @@ p {
   .home__about {
     display: flex;
     align-items: center;
-    padding: 40px 150px;
-    height: 450px;
+    padding: 100px 150px;
+    // height: 500px;
     border-bottom: 1px solid #e2e2e2;
     .left {
       display: flex;
@@ -174,8 +174,11 @@ p {
     display: flex;
     flex-direction: column;
     padding: 60px 0;
+    border-bottom: 1px solid #e2e2e2;
+    background-color: #F7F8F9;
     .top {
       padding: 0px 150px;
+      margin-bottom: 32px;
       text-align: center;
       h2 {
         margin-bottom: 18px;
@@ -201,17 +204,19 @@ p {
         text-align: center;
         padding: 32px;
         border: 1px solid #e2e2e2;
+        border-radius: 5px;
         width: 25%;
         margin: 32px;
         min-height: 280px;
         min-width: 280px;
+        background-color: white;
         img {
           height: 50px;
           width: auto;
           margin-bottom: 16px;
         }
         h4 {
-          font-size: 18px;
+          font-size: 20px;
           font-weight: 600;
           margin-bottom: 8px;
         }
